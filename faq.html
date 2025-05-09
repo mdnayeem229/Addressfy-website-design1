@@ -1,0 +1,337 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!---------bootstrap css------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!----------bootstrap js--------->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!----------font awesome ---------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!---------Slick-Slider------->
+<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+   <!------google font popins------->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <!--------external css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/favicon-32x32.png">
+</head>
+<body>
+     <!--------------header start-------------->
+     <header>
+        <nav>
+            <div class="logo"><img src="images/logo design.png" alt=""></div>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+               </div>
+            <ul id="listmenu">
+                <li><a href="home.html">Home</a></li>
+               <li><a href="demo.html">Demo</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="faq.html">Faq</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!----------header end --------->
+     <!-----------top to bottom scrollbar------>
+<a href="#" class="to-top">
+    <i class="fa-solid fa-chevron-down"></i>
+</a>
+ <!-----------about-the-faq--------->
+ <section id="about-demo">
+    <div class="container">
+<div class="demo">
+    <img src="images/heading-icon-question.png" alt="">
+<h3>FAQ</h3>
+</div>
+</div>
+</section>
+ <!-----------freequently-question--------->
+<section id="question" style="padding-top: 40px;">
+<div class="container">
+<h2 style="font-size: 22px; color: #626262; font-weight: 700;">Frequently asked questions</h2>
+</div>
+</section>
+<section id="freequently" style="padding-top: 20px;">
+    </div>
+    <div class="container justify-content-center" style="width: 75%;">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item mt-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo2" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" style="color: rgb(68, 177, 217); font-size: 15px; line-height: 1.7em;">
+                - What level of address validation does Addressify provide and what is the difference between the Lite and Pro plans?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo2" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;"><span style="color: #837e7e; font-weight: 700;">Addressify</span> Pro provides total and complete Australian address validation, including the building name, unit type, unit number, level type, level number, street number, street name, street type, street suffix, suburb, state and postcode for all Australian states and territories. It uses the most complete official physical Address dataset available in Australia sourced directly from the Australian government. All Addressify API calls including both 'Pro' and 'Lite' calls are available on our Pro plan, please see our documentation for a list of these calls.</p>
+
+                <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;"><span style="color: #837e7e; font-weight: 700;">Addressify Lite</span> uses the same dataset but only provides validation at the street, street type, street suffix, suburb, state and postcode levels. It does not validate the existence of the unit, level or street number and is a lower cost alternative where the existence of a unit/level/street number are irrelevant. The vast majority of address input errors by users occur at the street or suburb level so depending on your needs Addressify Lite may suffice. Only Addressify Lite API calls can be called from the Lite plan, please see our documentation for a list of these calls.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mt-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree3" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - What Addressify plan is right for me?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree3" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Addressify provides a number of different plans based on your intended usage, for the majority of cases either the Lite or Pro plan is the correct option. The differences between all plans are described below:</p>
+                <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;"><span style="color: #837e7e; font-weight: 700;">Addressify Pro</span> provides total and complete Australian address validation and autocomplete, including the building name, unit type, unit number, level type, level number, street number, street name, street type, street suffix, suburb, state and postcode for all Australian states and territories. It uses the most complete official physical Address dataset available in Australia sourced directly from the Australian government. All Addressify API calls including both 'Pro' and 'Lite' calls are available on our Pro plan, please see our <a href="#"style="color: rgb(68, 177, 217); text-decoration: none;">documentation</a> for a list of these calls</p>
+                <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;"><span style="color: #837e7e; font-weight: 700;">Addressify Lite</span> uses the same dataset but only provides validation and autocomplete at the street, street type, street suffix, suburb, state and postcode levels. It does not validate the existence of the unit, level or street number and is a lower cost alternative where the existence of a unit/level/street number are irrelevant. The vast majority of address input errors by users occur at the street or suburb level so depending on your needs Addressify Lite may suffice. Only Addressify Lite API calls can be called from the Lite plan, please see our  <a href="#"style="color: rgb(68, 177, 217); text-decoration: none;">documentation</a> for a list of these calls.</p>
+                <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;"><span style="color: #837e7e; font-weight: 700;">Addressify VAR</span> plans are for Value Added Reseller's (VAR's) and are intended for Independent Software Vendors (ISV's) planning to embed and resell the service in their desktop, mobile, cloud or web applications where the results of the API calls will be utilised by a 3rd party. For example, a pizza delivery restaurant intending to integrate Addressify into their website for the purpose of address validation of their customers can use our Lite or Pro plan, however if a software vendor that produces an application for multiple pizza delivery restaurants to accept orders online intends to integrate Addressify into their software they would need a VAR licence. If you are intending to become an Addressify VAR please <a href="contact.html" style="color: rgb(68, 177, 217); text-decoration: none;">contact us.</a></p>
+                <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;"><span style="color: #837e7e; font-weight: 700;">Addressify Dev</span> or Developer plans are free accounts intended for consulting, software development, or web design firms developing apps or sites for 3rd parties. We can provide you with a free account for development only purposes provided you have at least one client on a Lite or Pro plan. Each individual 3rd party client would need their own Addressify Lite or Pro plan and separate API key. These accounts are not to be used in live production environments but may be used for staging and client demonstration purposes. To activate a developer account for your organisation please <a href="contact.html" style="color: rgb(68, 177, 217); text-decoration: none;">contact us.</a></p>
+                <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;"><span style="color: #837e7e; font-weight: 700;">Addressify Bulk</span> plans are for organisations planning to use significantly more than 20,000 API calls per day (which equates to approximately 7,300,000 calls per annum), and are suited to large organisations that plan to implement Addressify across multiple high volume systems, users planning to perform large batch processes or websites that receive a very high amount of traffic. To enquire about a bulk account for your organisation please <a href="contact.html" style="color: rgb(68, 177, 217); text-decoration: none;">contact us.</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree8" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - Can Addressify parse, cleanse and validate single line or free form addresses not entered through the autocomplete functionality?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree8" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Yes. Unlike many other solutions, Addressify can parse and validate free form addresses and perform single line address processing with a very high accuracy even if the address is not entered using the autocomplete functionality. In this way Addressify can work with existing lists of unformatted addresses and parse them correctly extremely quickly and accurately, it can even correcty parse many invalid or non existing addresses or new addresses that don't yet exist in any address dataset.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree7" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - Where do you get your data and is it accurate?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree7" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Addressify was developed using G-NAF ©PSMA Australia Limited licensed by the Commonwealth of Australia under the Open Geo-coded <a href="#" style="color: rgb(68, 177, 217); text-decoration: none;">National Address File (G-NAF) End User Licence Agreement.</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree9" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - How often is your data updated?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree9" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Every 3 months, upon release of the data by the Australian government.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree10" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - Where is Addressify hosted and how reliable is it?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree10" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Addressify is hosted by Microsoft on the Azure cloud service in multiple Australian data centres in Sydney and Melbourne. It is geo-redundant, meaning if one data centre were to go offline due to human error or a natural disaster it will automatically fail over to another location for maximum uptime. This fail over action can take up to approximately 5 minutes for the DNS lookup to start resolving to the backup servers. The Addressify web service has been actively serving results 24/7 to Australian companies since 2013.</p>
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">You can monitor the current health of our servers by visiting our live status page <a href="#" style="color: rgb(68, 177, 217); text-decoration: none;">http://status.addressify.com.au</a> at any time.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree11" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - Does the Addressify API support secure connections over SSL?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree11" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Yes, on all plans. Use the <a href="https://api.addressify.com.au base URL." style="color: rgb(68, 177, 217); text-decoration: none;">https://api.addressify.com.au base URL.</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree12" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - How do I implement Addressify into my website or web/desktop/mobile application?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree12" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Implementing Addressify is fairly trivial for an experienced web or software developer and you can have it up and running relatively quickly after signing up, but it will require some development knowledge. The best place to start is the <a href="#"style="color: rgb(68, 177, 217); text-decoration: none;">documentation.</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree13" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - Can Addressify be integrated into a CRM, ERP, Excel document, Access database or other custom system?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree13" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Yes. Addressify can be integrated into any software that has access to the internet and can perform HTTP GET calls and that allows for custom handling of the JSON responses returned from the call. This includes most customisable CRM's, ERP's, the full Microsoft office suite including Excel, Access, Word and many other web and desktop applications.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree14" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - I need help implementing Addressify into my website or application can you do it for me?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree14" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Yes. One of our experienced developers can implement the Addressify API for you. Please note: There is an additional cost involved for this service. <a href="contact.html" style="color: rgb(68, 177, 217); text-decoration: none;">Contact us</a> for a quote. Alternatively many proficient web and software developers can be found on freelancing sites that will be able to implement Addressify for you based on our <a href="" style="color: rgb(68, 177, 217); text-decoration: none;">documentation.</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree15" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - Does Addressify work with GPO/PO boxes etc.?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree15" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Addressify will auto-complete Postal boxes provided that the suburb exists in our dataset and it will also parse them. However, Addressify uses the Australian government's GNAF dataset and as such postal boxes that are available only through Australia post and require a 'per call' royalty fee are not validated with Addressify.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree16" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - What are 'daily allowable API calls' on the Trial plan?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree16" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Daily allowable API calls is the allowable daily limit your application can make to the Addressify web API. So for a trial account this would be equivalent to, for example, 400 address verifications, 400 address parse requests and 200 autocomplete requests for a combined total of 1000 requests.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree17" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - What happens when the daily allowable API limit for my Trial plan is reached?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree17" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">The API will return a 'daily call allocation exceeded' error until the account is either upgraded to an account with a higher daily allowable API call limit or until the counter resets on the next calendar day.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree18" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - When does the daily allowable API call limit counter for my Trial plan reset?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree18" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">The daily API call limit counter resets at 12:00 AM AEST.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree19" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: rgb(68, 177, 217); font-size: 15px;">
+                - How is payment made and what are the payment options?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree19" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                  <p style="font-size: 14px; color: rgb(143, 143, 143); line-height: 1.7em;">Within 1-2 business days of signing up you will be sent an invoice for the yearly subscription amount for the plan you selected. You have 30 days to pay the invoice by credit card, paypal or EFT.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----------footer---------->
+<section id="footer">
+    <div class="container">
+      <div class="row" style="padding-top: 20px;">
+        <div class="col-md-6">
+        <div class="footer-img">
+            <img src="images/logo design.png" alt="">
+            <ul style="padding-top: 10px;">
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+      </div>
+    <div class="col-md-6">
+        <div class="footer-text">
+            <h3>Navigation</h3>
+            <ul style="padding-top: 10px;">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+      </div>
+      <hr class="line">
+      <span class="Copyright">Copyright 2025 Systems Applied Pty Ltd | ACN 161 943 371 | ABN 68 161 943 371</span>
+    </div>
+    
+    
+    </section>
+
+
+<script src="index.js"></script>

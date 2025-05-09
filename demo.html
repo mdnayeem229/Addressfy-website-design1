@@ -1,0 +1,227 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!---------bootstrap css------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!----------bootstrap js--------->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!----------font awesome ---------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!---------Slick-Slider------->
+<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+   <!------google font popins------->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <!--------external css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/favicon-32x32.png">
+</head>
+<body>
+     <!--------------header start-------------->
+     <header>
+        <nav>
+            <div class="logo"><img src="images/logo design.png" alt=""></div>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+               </div>
+            <ul id="listmenu">
+                <li><a href="home.html">Home</a></li>
+               <li><a href="demo.html">Demo</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="faq.html">Faq</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!----------header end --------->
+     <!-----------top to bottom scrollbar------>
+<a href="#" class="to-top">
+    <i class="fa-solid fa-chevron-down"></i>
+</a>
+<!---------about-the-demo---------->
+
+<section id="about-demo">
+    <div class="container">
+<div class="demo">
+    <img src="images/icon1-fields.png" alt="">
+<h3>Demo</h3>
+</div>
+</div>
+</section>
+<!--------demo-note--------->
+<section>
+<div class="container">
+    <div class="demo-note">
+        <p>PLEASE NOTE: The calls executed on this page are for demonstration purposes only. To prevent unauthorised use of the Addressify API this demo restricts the number of calls a single IP address can make in a certain time period. All calls to this demo are monitored and any IP's believed to be abusing the demo will be banned permanently. To implement and test Addressify for FREE please sign up to our Trial plan.</p>
+<h3>Plan</h3>
+<input type="radio" name="0" id="" value="Pro" checked> Pro
+<input type="radio" name="0" id="" value=" Lite"> Lite
+</div>
+<div class="demo-input" style="padding-top: 30px;">
+    <div class="row">
+        <div class="col-md-6">
+   <form action="">
+<div class="input-form">
+    <label for="">Address Autocomplete</label><br>
+<input type="text" placeholder="Address 200 PITT ST, WATERLOO NSW 2017">
+</div>
+<div class="input-form" style="padding-top: 15px;">
+    <label for="">Building Name</label><br>
+<input type="text" placeholder="">
+</div>
+<div class="input-form-head">
+<div class="input-form">
+    <label for="">Unit Type</label><br>
+<input type="text" placeholder="">
+</div>
+<div class="input-form">
+    <label for="">Unit Number</label><br>
+<input type="text" placeholder="">
+</div>
+</div>
+<div class="input-form-head">
+    <div class="input-form">
+        <label for="">Level Type</label><br>
+    <input type="text" placeholder="">
+    </div>
+    <div class="input-form">
+        <label for="">Level Number</label><br>
+    <input type="text" placeholder="">
+    </div>
+    </div>
+    <div class="input-form" style="padding-top: 15px;">
+        <label for="">Street Name</label><br>
+    <input type="text" placeholder="">
+    </div>
+    <div class="input-form" style="padding-top: 15px;">
+        <label for="">Address Line</label><br>
+    <input type="text" placeholder="">
+    </div>
+    <div class="input-form-head">
+        <div class="input-form">
+            <label for="">
+                State</label><br>
+        <input type="text" placeholder="">
+        </div>
+        <div class="input-form">
+            <label for="">Postcode</label><br>
+        <input type="text" placeholder="">
+        </div>
+        </div>
+        <div class="input-form-head">
+            <div class="input-form">
+                <label for="">Longitude</label><br>
+            <input type="text" placeholder="">
+            </div>
+            <div class="input-form">
+                <label for="">Latitude</label><br>
+            <input type="text" placeholder="">
+            </div>
+            </div>
+            <div class="input-form" style="padding-top: 15px;">
+                <label for="">Suburb, State, Postcode</label><br>
+            <input type="text" placeholder="">
+            </div>
+
+
+
+   </form>
+
+
+    </div>
+
+<div class="col-md-6 mt-4">
+    <span>Valid</span><br>
+    <span class="invalid"><i class="fa-solid fa-xmark" style="margin-right: 7px;"></i> Address is invalid.</span>
+    <form action="">
+        <div class="input-form" style="padding-top: 15px;">
+            <label for="">Street Number</label><br>
+        <input type="text" placeholder="Address 200 PITT ST, WATERLOO NSW 2017">
+        </div>
+        <div class="input-form-head">
+            <div class="input-form">
+                <label for="">Street Type</label><br>
+            <input type="text" placeholder="">
+            </div>
+            <div class="input-form">
+                <label for="">Street Suffix</label><br>
+            <input type="text" placeholder="">
+            </div>
+            </div>
+            <div class="input-form" style="padding-top: 15px;">
+                <label for="">Suburb</label><br>
+            <input type="text" placeholder="">
+            </div>
+            <div class="input-form" style="padding-top: 15px;">
+                <label for="">Meshblock</label><br>
+            <input type="text" placeholder="">
+            </div>
+</div>
+    </div>
+    </div>
+<p class="developed">Incorporates or developed using G-NAF ©PSMA Australia Limited licensed by the Commonwealth of Australia under the <a href="#" class="developed-link">Open Geo-coded National Address File (G-NAF) End User Licence Agreement.</a>
+</p>
+    </form>
+</div>
+</div>
+</section>
+<!-------------Get started today with a free trial!--------->
+<section id="start-for-free" style="margin-top: 30px;">
+    <div class="container">
+        <div class="start-for-free">
+        <h2>Get started <span style="color: #626262;">today with a free trial!</span></h2>
+        <p>30 days free trial | No credit card required</p>
+        <a href="#">Sign Up</a>
+    </div>
+    </div>
+    </section>
+
+
+
+
+
+
+
+<!-----------footer---------->
+<section id="footer">
+    <div class="container">
+      <div class="row" style="padding-top: 20px;">
+        <div class="col-md-6">
+        <div class="footer-img">
+            <img src="images/logo design.png" alt="">
+            <ul style="padding-top: 10px;">
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+      </div>
+    <div class="col-md-6">
+        <div class="footer-text">
+            <h3>Navigation</h3>
+            <ul style="padding-top: 10px;">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+      </div>
+      <hr class="line">
+      <span class="Copyright">Copyright 2025 Systems Applied Pty Ltd | ACN 161 943 371 | ABN 68 161 943 371</span>
+    </div>
+    
+    
+    </section>
+
+<script src="index.js"></script>
